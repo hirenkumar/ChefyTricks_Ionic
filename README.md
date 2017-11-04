@@ -15,6 +15,10 @@ $ sudo npm install -g ionic cordova
 $ ionic start <AppName> <Template>
 ```
 
+To get NodeModules
+run npm install
+
+
 Then, to run it, cd into `<AppName>` and run:
 
 Ios
