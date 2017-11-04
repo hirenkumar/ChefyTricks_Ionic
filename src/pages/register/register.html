@@ -1,0 +1,72 @@
+
+<ion-content scroll="false" class="wholepage">
+<div class="background">
+</div>
+
+	<div class="container">
+			<div class="main">
+				<div class="panel-heading">
+	               <div class="panel-title text-center">
+	               		<h1 class="title">ChefyTricks</h1>
+	               		
+	               	</div>
+	            </div> 
+				<div class="main-login main-center">
+					<form class="form-horizontal" method="post" action="">
+						
+						<div class="rndfilediv">
+                        	<input type="file" name="UserImage" class="rndfile"  accept="image/png, image/jpeg"  />
+                    	</div>	
+						<div class="form-group">
+							<label for="email" class="cols-sm-2 control-label">FirstName</label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" name="email" id="email"  placeholder="FirstName"/>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="email" class="cols-sm-2 control-label">LastName</label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" name="email" id="email"  placeholder="LastName"/>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="email" class="cols-sm-2 control-label">Email</label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" name="email" id="email"  placeholder="Email"/>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="password" class="cols-sm-2 control-label">Password</label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+									<input type="password" class="form-control" name="password" id="password"  placeholder="Password"/>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group ">
+							<button type="button" class="btn btn-danger btn-lg btn-block login-button">Register</button>
+						</div>
+						<div class="form-group ">
+				           <button type="button" class="btn btn-link  btn-block login-button" (click)="login()">Login</button>
+
+				        </div>
+				        
+					</form>
+				</div>
+			</div>
+		</div>
+</ion-content>
