@@ -12,15 +12,19 @@ Take the name after `ionic2-starter-`, and that is the name of the template to b
 
 ```bash
 $ sudo npm install -g ionic cordova
-$ ionic start mySideMenu sidemenu
+$ ionic start <AppName> <Template>
 ```
 
-Then, to run it, cd into `mySideMenu` and run:
+Then, to run it, cd into `<AppName>` and run:
 
-```bash
+Ios
 $ ionic cordova platform add ios
 $ ionic cordova run ios
-```
+
+Android
+$ ionic cordova platform add android
+$ ionic cordova run android
 
 Substitute ios for android if not on a Mac.
+
 
